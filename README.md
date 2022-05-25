@@ -1,6 +1,19 @@
-<h4>
+```
   from cryptography.fernet import Fernet
-</h4>
+
+
+  encrypMessage = {
+      "message": b"gAAAAABijgSgAsNWBIw6BGxd5S2AnQzP5CcTsh8xG6d8ioxZNZuNtYU84OuMHNJRXMbsyvJt1XtHqe0RQRp_FnljMfNx0P5LgA==",
+      "key": b"-HMGS_EnbfjYiR1Y6ddeH2T2VlQ2ax2ee3ZqhlyOXAY="
+  }
+
+  fernet = Fernet(encrypMessage["key"])
+  message = fernet.decrypt(encrypMessage["message"])
+  decMessage = message.decode()
+
+  print(decMessage)
+  
+```
 
 <h1 align="center">Hi there 👋, I'm Ivan Camilo</h1>
 <h3 align="center">A passionate backend developer from Colombia</h3>
