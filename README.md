@@ -1,20 +1,3 @@
-```
-  from cryptography.fernet import Fernet
-
-
-  encrypMessage = {
-      "message": b"gAAAAABijgSgAsNWBIw6BGxd5S2AnQzP5CcTsh8xG6d8ioxZNZuNtYU84OuMHNJRXMbsyvJt1XtHqe0RQRp_FnljMfNx0P5LgA==",
-      "key": b"-HMGS_EnbfjYiR1Y6ddeH2T2VlQ2ax2ee3ZqhlyOXAY="
-  }
-
-  fernet = Fernet(encrypMessage["key"])
-  message = fernet.decrypt(encrypMessage["message"])
-  decMessage = message.decode()
-
-  print(decMessage)
-  
-```
-
 <h1 align="center">Hi there 👋, I'm Ivan Camilo</h1>
 <h3 align="center">A passionate backend developer from Colombia</h3>
 
@@ -40,4 +23,19 @@
 
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=atodekimeru&show_icons=true&theme=dark&locale=en&layout=compact" alt="atodekimeru" /></p>
 
-<h4 align="center"> Guess = { "if you know what say this hash" :  8044b269d77eaa6496b3b69899e6821a } </h4>
+```
+  from cryptography.fernet import Fernet
+
+
+  encrypMessage = {
+      "message": b"gAAAAABijgSgAsNWBIw6BGxd5S2AnQzP5CcTsh8xG6d8ioxZNZuNtYU84OuMHNJRXMbsyvJt1XtHqe0RQRp_FnljMfNx0P5LgA==",
+      "key": b"-HMGS_EnbfjYiR1Y6ddeH2T2VlQ2ax2ee3ZqhlyOXAY="
+  }
+
+  fernet = Fernet(encrypMessage["key"])
+  message = fernet.decrypt(encrypMessage["message"])
+  decMessage = message.decode()
+
+  print(decMessage)
+  
+```
