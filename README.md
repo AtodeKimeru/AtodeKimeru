@@ -1,9 +1,9 @@
 <h1 align="center">Hi there 👋, I'm Ivan Camilo</h1>
-<h3 align="center">A passionate backend developer from Colombia</h3>
+<h3 align="center">Full Stack Developer & Product AI Engineer from Colombia</h3>
 
-- 👯 I’m looking to collaborate on **python projects (or some other interesting projects)**
+- 👯 I’m looking to collaborate on **ODS projects (or some other interesting open code projects)**
 
-- 💬 Ask me about **python :p**
+- 💬 Ask me about **web development, servers & networking**
 
 - 📫 How to reach me **ibarragan@unal.edu.co**
 
